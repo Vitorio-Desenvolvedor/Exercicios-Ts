@@ -1,7 +1,7 @@
 let linguagem: string[]=["JavaScript", "TypeScript", "Python"];
 console.log(`Array Original: ${linguagem}`);
 
-linguagem.push("Java");
+linguagem.push("Java", "C++", "Assembly");
 console.log(`Após adicionar: ${linguagem}`);
 
 linguagem.pop();
